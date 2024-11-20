@@ -1,0 +1,55 @@
+/Users/yuriipidlisnyi/Documents/programming/py/ai-ml-lab-1/.venv/bin/python /Users/yuriipidlisnyi/Documents/programming/py/ai-ml-lab-1/main.py
+/Users/yuriipidlisnyi/Documents/programming/py/ai-ml-lab-1/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-21 00:07:27.270480: I tensorflow/core/kernels/data/tf_record_dataset_op.cc:376] The default buffer size is 262144, which is overridden by the user specified `buffer_size` of 8388608
+2024-11-21 00:07:27.424879: I tensorflow/core/framework/local_rendezvous.cc:405] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2024-11-21 00:07:28.485797: I tensorflow/core/framework/local_rendezvous.cc:405] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Epoch 1/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 132s 5s/step - accuracy: 0.0251 - loss: 5.2240 - val_accuracy: 0.0327 - val_loss: 4.4030
+Epoch 2/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 136s 5s/step - accuracy: 0.1024 - loss: 3.9281 - val_accuracy: 0.0654 - val_loss: 4.1932
+Epoch 3/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 137s 5s/step - accuracy: 0.3838 - loss: 2.8968 - val_accuracy: 0.1830 - val_loss: 3.7278
+Epoch 4/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 126s 4s/step - accuracy: 0.6901 - loss: 1.7514 - val_accuracy: 0.2614 - val_loss: 3.2486
+Epoch 5/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 128s 5s/step - accuracy: 0.8608 - loss: 1.0152 - val_accuracy: 0.2288 - val_loss: 3.0561
+Epoch 6/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 128s 5s/step - accuracy: 0.9818 - loss: 0.4611 - val_accuracy: 0.3137 - val_loss: 2.7725
+Epoch 7/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 135s 5s/step - accuracy: 0.9935 - loss: 0.2442 - val_accuracy: 0.3595 - val_loss: 2.7350
+Epoch 8/10
+25/28 ━━━━━━━━━━━━━━━━━━━━ 12s 4s/step - accuracy: 0.9980 - loss: 0.1356
+28/28 ━━━━━━━━━━━━━━━━━━━━ 137s 5s/step - accuracy: 0.9978 - loss: 0.1351 - val_accuracy: 0.3922 - val_loss: 2.7545
+Epoch 9/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 128s 5s/step - accuracy: 0.9993 - loss: 0.0882 - val_accuracy: 0.3399 - val_loss: 2.7256
+Epoch 10/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 138s 5s/step - accuracy: 1.0000 - loss: 0.0644 - val_accuracy: 0.3660 - val_loss: 2.6615
+193/193 ━━━━━━━━━━━━━━━━━━━━ 770s 4s/step - accuracy: 0.3972 - loss: 2.4923
+Test accuracy of the pre-trained model: 0.39
+/Users/yuriipidlisnyi/Documents/programming/py/ai-ml-lab-1/.venv/lib/python3.9/site-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 20s 658ms/step - accuracy: 0.0188 - loss: 4.9668 - val_accuracy: 0.0131 - val_loss: 4.5826
+Epoch 2/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 19s 654ms/step - accuracy: 0.0202 - loss: 4.5125 - val_accuracy: 0.0458 - val_loss: 4.4723
+Epoch 3/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 19s 660ms/step - accuracy: 0.0276 - loss: 4.3141 - val_accuracy: 0.0327 - val_loss: 4.3583
+Epoch 4/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 19s 669ms/step - accuracy: 0.1014 - loss: 3.9844 - val_accuracy: 0.0784 - val_loss: 4.1838
+Epoch 5/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 18s 642ms/step - accuracy: 0.1373 - loss: 3.5111 - val_accuracy: 0.0784 - val_loss: 4.0701
+Epoch 6/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 19s 646ms/step - accuracy: 0.3413 - loss: 2.7235 - val_accuracy: 0.0850 - val_loss: 4.0931
+Epoch 7/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 18s 642ms/step - accuracy: 0.4946 - loss: 1.8848 - val_accuracy: 0.0915 - val_loss: 4.2126
+Epoch 8/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 19s 655ms/step - accuracy: 0.7172 - loss: 1.1205 - val_accuracy: 0.1242 - val_loss: 4.6064
+Epoch 9/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 20s 681ms/step - accuracy: 0.7931 - loss: 0.7927 - val_accuracy: 0.1307 - val_loss: 5.3309
+Epoch 10/10
+28/28 ━━━━━━━━━━━━━━━━━━━━ 19s 674ms/step - accuracy: 0.8296 - loss: 0.6422 - val_accuracy: 0.1046 - val_loss: 4.9742
+193/193 ━━━━━━━━━━━━━━━━━━━━ 38s 194ms/step - accuracy: 0.1167 - loss: 5.1980
+Test accuracy of the model trained from scratch: 0.11
+
+Process finished with exit code 0
